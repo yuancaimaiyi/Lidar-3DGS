@@ -30,7 +30,7 @@
 
 `points3d.bin/txt` 利用 (1) 和 (4) 这样实现：
 
-```cpp
+```
 const auto& ply_points = ReadPly(JoinPaths(path, "points.ply"));
 std::ofstream file("/path/points3d.txt", std::ios::trunc);
 CHECK(file.is_open()) << path;
@@ -64,9 +64,7 @@ for (const auto& ply_point : ply_points) {
   line_string = line_string.substr(0, line_string.size() - 1);
   file << line_string << std::endl;
 }
-```cpp
-
- 
-## 设备处理
+```
+## GS 训练
 
 
