@@ -64,3 +64,9 @@ for (const auto& ply_point : ply_points) {
   line_string = line_string.substr(0, line_string.size() - 1);
   file << line_string << std::endl;
 }
+```cpp
+
+ 
+## 设备处理
+
+
